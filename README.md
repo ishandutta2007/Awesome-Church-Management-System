@@ -1,217 +1,117 @@
-# Awesome-Church-Management-System
+<div align="center">
 
-## Top Church Management System (ChMS) Platforms Ecosystem
+<img src="./assets/banner.svg" alt="Awesome Church Management System Banner" width="100%" />
 
+# ⛪ Awesome Church Management System (ChMS) 🚀
 
+[![Awesome](https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github)](https://github.com/ishandutta2007/Awesome-Awesome-Awesome)<a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/ishandutta2007/Awesome-Church-Management-System/pulls)
+[![GitHub followers](https://img.shields.io/github/followers/ishandutta2007?label=Follow)](https://github.com/ishandutta2007)
 
-**Curated List of SaaS Products & Open-Source GitHub Projects**  
-
-*Focused on Congregation Management, Giving & Donations, Event Planning & Volunteer Coordination*  
-
-**Last updated: September 2026**
-
-
-
-This repository tracks notable **SaaS platforms** and **open-source projects** for **Church Management Systems (ChMS)**. These tools help churches, ministries, and faith-based organizations manage member databases, track contributions, coordinate volunteers, plan events, and communicate with their congregations.
-
-
-
-**Examples** include Planning Center, Faithlife, Church Community Builder (Pushpay), Breeze ChMS, FellowshipOne, Tithe.ly ChMS, Realm, Elvanto, ChurchTrac, Servant Keeper, Rock RMS, and TouchPoint (the category leaders).
-
-
-
-**Open-source emphasis**: This section is heavily expanded with every major active project for self-hosting, custom ministry workflows, and transparent member data — ideal for churches that need full control over their congregation data without per-member SaaS fees or vendor lock-in.
-
-
-
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
-
-
-
-## Table of Contents
-
-
-
-- [SaaS/Hosted Platforms](#saas-hosted-platforms)
-
-- [Open-Source GitHub Projects](#open-source-github-projects)
-
-- [How to Contribute](#how-to-contribute)
-
-- [Disclaimer](#disclaimer)
-
-
-
-## SaaS/Hosted Platforms
-
-
-
-- **[Planning Center](https://www.planningcenter.com/)**  
-
-  The most widely adopted ChMS platform, used by over 70,000 churches. Modular architecture with separate products for People (member database), Services (volunteer scheduling), Giving (donations), Check-Ins (children's ministry), Groups, and Registrations. Known for excellent volunteer scheduling and worship team planning tools.
-
-
-
-- **[Faithlife](https://faithlife.com/)**  
-
-  Church management platform (formerly Logos Bible Software ecosystem). Integrates church management, giving, and community features with Bible study tools and Logos integration.
-
-
-
-- **[Church Community Builder (Pushpay)](https://www.pushpay.com/)**  
-
-  Comprehensive ChMS with member management, giving, groups, volunteer scheduling, and communication tools. Acquired by Pushpay and integrated into their giving platform.
-
-
-
-- **[Breeze ChMS](https://www.breezechms.com/)**  
-
-  Simple, affordable church management system popular with small to mid-sized churches. Provides people management, giving tracking, volunteer scheduling, and check-in.
-
-
-
-- **[FellowshipOne](https://www.fellowshipone.com/)**  
-
-  Enterprise ChMS for larger churches and multi-site ministries. Provides member management, contributions, groups, check-in, and reporting.
-
-
-
-- **[Tithe.ly ChMS](https://get.tithe.ly/)**  
-
-  Giving-focused church management platform. Combines online giving, member management, and communication tools in an affordable package.
-
-
-
-- **[Realm](https://www.onrealm.org/)**  
-
-  Church management software from ACS Technologies. Provides member management, giving, groups, events, and communication for churches of all sizes.
-
-
-
-- **[Elvanto](https://www.elvanto.com/)**  
-
-  Cloud-based church management and volunteer rostering platform. Strong scheduling and communication features, popular in Australia and the UK.
-
-
-
-- **[ChurchTrac](https://www.churchtrac.com/)**  
-
-  Affordable church management software. Provides member management, giving, attendance, and accounting features at accessible price points.
-
-
-
-- **[Servant Keeper](https://www.servantkeeper.com/)**  
-
-  Church management software with a focus on member records, contributions, and ministry tracking. Available as desktop or cloud.
-
-
-
-## Open-Source GitHub Projects
-
-
-
-- **[Rock RMS](https://github.com/SparkDevNetwork/Rock)**  
-
-  **The most mature and widely deployed open-source ChMS.** An open-source CMS, Relationship Management System (RMS), and Church Management System all rolled into one . **684 stars, 415 forks** on the main SparkDevNetwork/Rock repository, with recent updates as of September 2026 . Built in **C#** (.NET). Provides comprehensive functionality: person and family records, groups, check-in, contributions, communications, workflows, and a powerful **Lava templating engine** for customization . **Extensive ecosystem** with migration tools (Slingshot, Bulldozer), WordPress integration (ft-rockpress), VS Code syntax extensions, SendGrid transport, and Ruby API wrappers . Used by churches of all sizes including NewPointe Community Church. **Open source**.
-
-
-
-- **[ChurchCRM](https://github.com/ChurchCRM/CRM)**  
-
-  **The second most adopted open-source ChMS with 631 stars and 445 forks.** Free, open-source church management software to help congregations manage membership data, groups, events, and finances . Written in **PHP** (86.2% of codebase), with JavaScript, TypeScript, and Twig components . **1,400+ commits** across 59 contributors . Supports **40+ languages** through localization efforts on poeditor.com . Modern **Docker image** (kolumbus120/churchcrm) with PHP 8.4, auto-updates every Tuesday and Friday, multi-architecture support (amd64/arm64), and environment-variable configuration . Features member management, groups, events, finances, and communication tools . **Open source**.
-
-
-
-- **[B1Admin](https://github.com/ChurchApps/B1Admin)**  
-
-  **Completely free, open-source church management software** with a modern, comprehensive feature set . Provides member and guest information tracking, attendance management with **self check-in app**, group coordination, **donation tracking with detailed reports**, and **custom form creation** . **Self-hosting in beta** with Docker Compose: `docker compose up -d` brings up B1Admin, member portal, API, and MySQL database . Supports **Stripe, PayPal, and KingdomFunding** payment gateways for online donations . Frontend built with **Next.js/React** (npm-based development workflow). **Open source**.
-
-
-
-- **[Corpus Christi](https://github.com/corpus-christi/corpus-christi)**  
-
-  **Open-source, fully internationalized church management suite** developed under the **Center for Missions Computing at Taylor University** . Three core modules: **groups** (Home Church management and tracking), **courses** (Teaching ministry management), and **events** (Event planning and registration). Built with **Vue** . **30 stars, 7 forks** . Focused on simplicity and internationalization for missions contexts. **Open source**.
-
-
-
-- **[IES Church Management System](https://github.com/Goldwin/ies-pik-cms)**  
-
-  **Open-source alternative for church management applications.** Explicit goal: **"provide cheaper alternatives to small churches that can't afford to use paid software to manage the church"** . Built in **Go** with modular architecture (`SERVICE_MODULES=AUTH,PEOPLE,EVENTS`). Uses **MongoDB** for data persistence and **Redis** for caching . Features authentication (with email OTP), people management, and events modules. Environment-variable configuration for deployment. **Open source**.
-
-
-
-- **[EcclesiaCRM](https://github.com/phili67/ecclesiacrm)**  
-
-  **CRM software for church management** with **42 stars and 21 forks** . PHP-based, **514 MB repository** . Active development with recent updates. Provides church CRM functionality including member management and relationship tracking. **Open source**.
-
-
-
-- **[MinistryX](https://github.com/CrazyCoder254/MinistryX)**  
-
-  **Full-stack church management website** written primarily in **PHP** . Features adding new church members, districts, church events, fundraising activities, and a fully-fledged calendar of activities . **10,400 commits** . Built on ChurchCRM foundation with customizations. **Open source**.
-
-
-
-- **[jornada](https://github.com/fabianoaljava/jornada)**  
-
-  **Church Management System designed to help churches using web-based solutions manage everyday processes.** **JavaScript-based** (26.3 MB) . **Open source**.
-
-
-
-### Additional Strong Open-Source Options
-
-
-
-- **Mature Platforms**: **Rock RMS** (C#, most mature, extensive ecosystem), **ChurchCRM** (PHP, 631 stars, 40+ languages) .
-
-- **Modern Stacks**: **B1Admin** (Next.js/React, Docker self-hosting, payment gateways), **Corpus Christi** (Vue, Taylor University) .
-
-- **Lightweight/Go**: **IES Church Management System** (Go + MongoDB, small church focus) .
-
-- **CRM-Focused**: **EcclesiaCRM** (PHP, 42 stars) .
-
-- **Migration Tools**: **Slingshot** (Rock RMS migration), **Bulldozer** (multi-system conversion) .
-
-
-
-**Frameworks for building custom systems**: Combine **Rock RMS** for a mature, feature-rich ChMS with extensive ecosystem, **ChurchCRM** for a proven PHP-based solution with broad language support, **B1Admin** for a modern Next.js/React stack with Docker deployment, and **Corpus Christi** for a lightweight, internationalized suite. Add **PostgreSQL** or **MySQL** for persistence and **Docker** for deployment.
-
-
-
-## How to Contribute
-
-
-
-1. Fork the repo.
-
-2. Add/edit entries in `README.md` (follow existing format).
-
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
-
-4. Submit PR with a short explanation.
-
-
-
-Star the repo if you find it useful!
-
-
-
-## Disclaimer
-
-
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-
-- Church management platforms handle sensitive member and giving data; ensure compliance with data protection regulations and internal policies.
-
-- **Open-source reality**: The open-source ecosystem for church management is **mature and production-ready**. **Rock RMS** is a full-featured, widely adopted platform with an extensive ecosystem of extensions and migration tools . **ChurchCRM** provides a proven, PHP-based solution with 40+ language support and modern Docker deployment . **B1Admin** offers a modern React/Next.js alternative with self-hosting support and payment gateway integrations . **Corpus Christi** delivers a lightweight, internationalized suite from Taylor University . For churches seeking a free, self-hosted ChMS, these open-source options are **genuinely viable alternatives** to commercial platforms like Planning Center and Breeze.
-
-
+**A curated, SEO-optimized directory of top SaaS platforms and open-source GitHub projects for Church Management Systems (ChMS), ministry automation, congregation management, giving, and event planning.**
 
 ---
 
+</div>
 
+## 📑 Table of Contents
 
-**Made for church administrators, ministry leaders, IT volunteers, and faith-based organization technologists.**
+- [📊 Market Overview & Industry Insights](#-market-overview--industry-insights)
+- [🏢 SaaS & Hosted Platforms](#-saas--hosted-platforms)
+- [💻 Open-Source GitHub Projects](#-open-source-github-projects)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [☕ Support & Sponsorship](#-support--sponsorship)
+- [📈 Star History](#-star-history)
+- [⚠️ Disclaimer](#%EF%B8%8F-disclaimer)
 
-Let's make church management more open, transparent, and ministry-focused.
+---
+
+## 📊 Market Overview & Industry Insights
+
+The global Church Management Software (ChMS) market is estimated at **$1.06B to $1.2B (2026)** with a compound annual growth rate (CAGR) of **~6.5%–9.7%**, while the broader church digital technology ecosystem reaches up to **$6.2B**.
+
+> **Market Dynamics**: The sector is **moderately fragmented**, featuring a mix of legacy enterprise providers and agile niche startups. However, it is experiencing rapid consolidation as major platforms (such as Pushpay, Tithe.ly, and Vanco) acquire specialized tools to offer unified, all-in-one digital ministry suites.
+
+---
+
+## 🏢 SaaS & Hosted Platforms
+
+Below is a detailed comparison of leading commercial Church Management Systems. The table is ordered by estimated company size (Revenue / Valuation) in descending order.
+
+| Platform 🌐 | Starting Price 💵 | Free Tier / Trial Limit ⏳ | Estimated Revenue / Valuation 📈 | Key Features & Focus 🎯 |
+| :--- | :--- | :--- | :--- | :--- |
+| **[Church Community Builder (Pushpay)](https://www.pushpay.com/)** | **$120/mo** (standard giving/ChMS bundle) | **No free trial** (Custom live demo upon request) | **~$100M - $150M ARR** (Acquired for ~$1.0B) | Full ChMS integration with custom giving apps, check-ins, member insights, and workflow automation. |
+| **[Planning Center](https://www.planningcenter.com/)** | **$14/mo** (Per module base; People module is free) | **30-day free trial** for paid modules (*People module free forever*) | **~$12M - $25M ARR** | Highly modular system; industry standard for volunteer scheduling, worship planning, and check-ins. |
+| **[Realm (ACS Technologies)](https://www.onrealm.org/)** | **$29/mo** (Scales by active record count) | **30-day free trial** (Guided interactive sandbox demo) | **~$50M+ ARR** (Part of Vanco Faith Ecosystem) | Comprehensive ministry tracking, accounting, mobile app integration, and parish administration. |
+| **[Faithlife (Logos)](https://faithlife.com/)** | **$19.99/mo** (Logos & ChMS bundle tiers) | **14-day free trial** for digital library & platform | **~$68M - $79M ARR** | Integrates congregation data with digital discipleship, Logos Bible software, and presentation tools. |
+| **[FellowshipOne](https://www.fellowshipone.com/)** | **$179/mo** (Enterprise base tier) | **No free trial** (Sales consultation & demo only) | **~$75M - $115M ARR** (Under Ministry Brands parent) | Built for mega-churches and multi-site congregations with advanced reporting and contribution tracking. |
+| **[Tithe.ly ChMS](https://get.tithe.ly/)** | **$72/mo** ($119/mo All-Access Bundle) | **30-day free trial** (*Giving module free forever with 2.9%+30¢ fee*) | **~$20M - $30M ARR** | Digital giving, custom church app, messaging, and member database suited for growing churches. |
+| **[Breeze ChMS](https://www.breezechms.com/)** | **$72/mo** (Flat rate, unlimited users/people) | **30-day free trial** (Instant live demo environment) | **~$15M - $25M ARR** (Subsidiary of Tithe.ly) | Intuitive, simple flat-rate ChMS for small to mid-sized churches needing attendance and giving tracking. |
+| **[Servant Keeper](https://www.servantkeeper.com/)** | **$79.99/mo** (Core plan base rate) | **No free trial** (Free guided demo & sample database) | **~$5M - $10M ARR** | Member records, donor contribution statements, and cloud/desktop hybrid database management. |
+| **[ChurchTrac](https://www.churchtrac.com/)** | **$29/mo** (Scales with name capacity) | **30-day free trial** (Free plan available up to 50 names) | **~$2M - $5M ARR** | Accessible, low-cost ChMS with built-in church accounting, website builder, and attendance tracking. |
+| **[Elvanto](https://www.elvanto.com/)** | **$50/mo** (Scales by active member count) | **14-day free trial** (Full feature access during trial) | **~$2M - $5M ARR** (Part of Tithe.ly family) | Cloud-based rostering, volunteer scheduling, and service planning popular in US, UK, and Australia. |
+
+---
+
+## 💻 Open-Source GitHub Projects
+
+For churches, developers, and IT volunteers who prefer complete data sovereignty, custom workflows, or self-hosted deployment without per-member SaaS fees.
+
+*Projects are sorted by GitHub_Stars_Count in descending order.*
+
+| Repository 📦 | GitHub_Stars ⭐ | Stack / Tech 🛠️ | Key Highlights & Architecture 🔍 |
+| :--- | :--- | :--- | :--- |
+| **[Rock RMS](https://github.com/SparkDevNetwork/Rock)** | [<img src="https://img.shields.io/github/stars/SparkDevNetwork/Rock?style=social&color=white" alt="Rock RMS Stars"/>](https://github.com/SparkDevNetwork/Rock/stargazers) | **C# / .NET / SQL Server** | The enterprise-grade standard for open-source ChMS. Includes Lava templating engine, automated workflows, check-in, and extensive ecosystem (Slingshot, Bulldozer). |
+| **[ChurchCRM](https://github.com/ChurchCRM/CRM)** | [<img src="https://img.shields.io/github/stars/ChurchCRM/CRM?style=social&color=white" alt="ChurchCRM Stars"/>](https://github.com/ChurchCRM/CRM/stargazers) | **PHP / MySQL / Docker** | Proven PHP-based ChMS supporting member management, donation tracking, events, and 40+ language localizations. |
+| **[B1Admin](https://github.com/ChurchApps/B1Admin)** | [<img src="https://img.shields.io/github/stars/ChurchApps/B1Admin?style=social&color=white" alt="B1Admin Stars"/>](https://github.com/ChurchApps/B1Admin/stargazers) | **TypeScript / Next.js / Node.js** | Modern full-stack ChMS with self check-in apps, custom forms, Docker Compose deployment, and Stripe/PayPal donor gateways. |
+| **[Church Management System](https://github.com/myckhel/church-management-system)** | [<img src="https://img.shields.io/github/stars/myckhel/church-management-system?style=social&color=white" alt="Church Management System Stars"/>](https://github.com/myckhel/church-management-system/stargazers) | **PHP / Laravel** | Web-based member database, attendance logging, and bulk SMS/communication module. |
+| **[EcclesiaCRM](https://github.com/phili67/ecclesiacrm)** | [<img src="https://img.shields.io/github/stars/phili67/ecclesiacrm?style=social&color=white" alt="EcclesiaCRM Stars"/>](https://github.com/phili67/ecclesiacrm/stargazers) | **PHP / JavaScript** | Specialized church CRM for pastoral care, family record tracking, and membership administration. |
+| **[Corpus Christi](https://github.com/corpus-christi/corpus-christi)** | [<img src="https://img.shields.io/github/stars/corpus-christi/corpus-christi?style=social&color=white" alt="Corpus Christi Stars"/>](https://github.com/corpus-christi/corpus-christi/stargazers) | **Vue.js / Go** | Lightweight, internationalized suite built at Taylor University for mission groups, home churches, and courses. |
+| **[IES ChMS](https://github.com/Goldwin/ies-pik-cms)** | [<img src="https://img.shields.io/github/stars/Goldwin/ies-pik-cms?style=social&color=white" alt="IES ChMS Stars"/>](https://github.com/Goldwin/ies-pik-cms/stargazers) | **Go / MongoDB / Redis** | Ultra-affordable microservice architecture designed for small churches unable to afford commercial SaaS platforms. |
+| **[MinistryX](https://github.com/CrazyCoder254/MinistryX)** | [<img src="https://img.shields.io/github/stars/CrazyCoder254/MinistryX?style=social&color=white" alt="MinistryX Stars"/>](https://github.com/CrazyCoder254/MinistryX/stargazers) | **PHP / MySQL** | Full-stack platform featuring fundraising activity management, district records, and event calendars. |
+| **[Jornada](https://github.com/fabianoaljava/jornada)** | [<img src="https://img.shields.io/github/stars/fabianoaljava/jornada?style=social&color=white" alt="Jornada Stars"/>](https://github.com/fabianoaljava/jornada/stargazers) | **JavaScript / Node.js** | Streamlined web application for managing daily ministry processes and member data. |
+
+---
+
+## 🤝 How to Contribute
+
+Contributions are warmly welcomed! Help us keep this directory accurate and up to date.
+
+1. **Fork** the repository 🍴
+2. **Create a branch** for your feature (`git checkout -b add-new-chms`)
+3. **Edit `README.md`** with factual information & links
+4. **Submit a Pull Request** with a brief overview of your changes 🚀
+
+Please ensure all added entries conform to the markdown table format.
+
+---
+
+## ☕ Support & Sponsorship
+
+If you find this repository helpful for your church, ministry, or software project, please consider supporting the project!
+
+- ⭐ **Star this repository** to help others discover it
+- 🔄 **Fork & Share** with your fellow church IT admins and developers
+- ☕ **Buy me a coffee**: Support ongoing open-source curation on [GitHub Sponsors](https://github.com/sponsors/ishandutta2007)
+
+<a href="https://github.com/sponsors/ishandutta2007"><img src="https://img.shields.io/badge/Sponsor-GitHub%20Sponsors-ea4aaa?style=for-the-badge&logo=github-sponsors" alt="Sponsor on GitHub" /></a>
+
+---
+
+## 📈 Star History
+
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Church-Management-System&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Church-Management-System&type=date&legend=top-left)
+
+---
+
+## ⚠️ Disclaimer
+
+- This is a community-curated collection intended for educational and research purposes.
+- Church management tools process sensitive personally identifiable information (PII) and financial records. Always ensure full compliance with regional privacy laws (GDPR, CCPA) and security best practices before deploying.
+
+---
+
+<div align="center">
+  <sub>Maintained with ❤️ for church administrators, technologists, and ministry leaders worldwide.</sub>
+</div>

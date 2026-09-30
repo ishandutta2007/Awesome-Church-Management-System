@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="50%" stop-color="#1e1b4b" />
+      <stop offset="100%" stop-color="#311042" />
+    </linearGradient>
+    <linearGradient id="title-gradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="50%" stop-color="#818cf8" />
+      <stop offset="100%" stop-color="#c084fc" />
+    </linearGradient>
+    <linearGradient id="accent-glow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6366f1" stop-opacity="0.4" />
+      <stop offset="100%" stop-color="#a855f7" stop-opacity="0.0" />
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#000" flood-opacity="0.5" />
+    </filter>
+    <style>
+      @keyframes float {
+        0% { transform: translateY(0px) rotate(0deg); }
+        50% { transform: translateY(-10px) rotate(1deg); }
+        100% { transform: translateY(0px) rotate(0deg); }
+      }
+      @keyframes pulse-light {
+        0%, 100% { opacity: 0.15; transform: scale(1); }
+        50% { opacity: 0.35; transform: scale(1.05); }
+      }
+      @keyframes slide-line {
+        0% { stroke-dashoffset: 400; }
+        100% { stroke-dashoffset: 0; }
+      }
+      .bg-wave { animation: pulse-light 8s ease-in-out infinite; transform-origin: center; }
+      .floating-card { animation: float 6s ease-in-out infinite; }
+      .title-text { font-family: 'Segoe UI', system-ui, -apple-system, sans-serif; font-weight: 800; }
+      .sub-text { font-family: 'Segoe UI', system-ui, -apple-system, sans-serif; font-weight: 400; }
+    </style>
+  </defs>
+
+  <!-- Background Layer -->
+  <rect width="1200" height="320" rx="16" fill="url(#bg-gradient)" />
+  
+  <!-- Dynamic Background Waves (Behind text) -->
+  <path class="bg-wave" d="M -100 200 Q 300 100 700 250 T 1300 150 L 1300 400 L -100 400 Z" fill="url(#accent-glow)" />
+  <circle class="bg-wave" cx="150" cy="80" r="140" fill="#38bdf8" opacity="0.08" />
+  <circle class="bg-wave" cx="1050" cy="240" r="180" fill="#c084fc" opacity="0.08" />
+
+  <!-- Grid Pattern overlay -->
+  <g opacity="0.05" stroke="#ffffff" stroke-width="1">
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <rect width="40" height="40" fill="none" />
+      <path d="M 40 0 L 0 0 0 40" fill="none" />
+    </pattern>
+    <rect width="1200" height="320" fill="url(#grid)" />
+  </g>
+
+  <!-- Decorative Tech Graphic Elements (Sides/Background) -->
+  <g opacity="0.3" transform="translate(920, 50)">
+    <rect x="0" y="0" width="180" height="120" rx="8" fill="#1e293b" stroke="#6366f1" stroke-width="1.5" />
+    <line x1="20" y1="30" x2="160" y2="30" stroke="#818cf8" stroke-width="2" stroke-dasharray="4 4" />
+    <rect x="20" y="50" width="60" height="8" rx="4" fill="#38bdf8" />
+    <rect x="20" y="68" width="100" height="8" rx="4" fill="#475569" />
+    <rect x="20" y="86" width="40" height="8" rx="4" fill="#c084fc" />
+    <circle cx="140" cy="74" r="16" fill="#6366f1" opacity="0.4" />
+  </g>
+
+  <!-- Foreground Title and Subtitle -->
+  <g filter="url(#shadow)" transform="translate(60, 130)">
+    <!-- Main Title -->
+    <text class="title-text" fill="url(#title-gradient)" font-size="44" x="0" y="0">Awesome Church Management System</text>
+    
+    <!-- Subtitle -->
+    <text class="sub-text" fill="#94a3b8" font-size="20" x="0" y="42">
+      Curated Ecosystem of SaaS Platforms &amp; Open-Source ChMS Solutions
+    </text>
+    
+    <!-- Tag Pill -->
+    <g transform="translate(0, 70)">
+      <rect x="0" y="0" width="160" height="32" rx="16" fill="#312e81" stroke="#6366f1" stroke-width="1" />
+      <text class="sub-text" fill="#a5b4fc" font-size="13" font-weight="600" x="16" y="20">⛪ Congregation Management</text>
+
+      <rect x="172" y="0" width="140" height="32" rx="16" fill="#1e1b4b" stroke="#818cf8" stroke-width="1" />
+      <text class="sub-text" fill="#c7d2fe" font-size="13" font-weight="600" x="188" y="20">💖 Giving &amp; Donations</text>
+
+      <rect x="324" y="0" width="150" height="32" rx="16" fill="#3b0764" stroke="#c084fc" stroke-width="1" />
+      <text class="sub-text" fill="#e9d5ff" font-size="13" font-weight="600" x="340" y="20">🚀 Open-Source &amp; SaaS</text>
+    </g>
+  </g>
+</svg>
